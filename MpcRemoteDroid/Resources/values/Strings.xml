@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">MPC-HC Remote</string>
+  <string name="full_app_name">MPC-HC Basic Remote Control</string>
+  <string name="settings">Settings</string>
+  <string name="about">About</string>
+  <string name="version">Current version</string>
+
+  <string name="rights">All rights reserved.</string>
+
+  <string name="required_value">Field value is required</string>
+
+  <string name="pref_category_connection_title">Communication</string>
+
+  <string name="pref_startup_title">Ready</string>
+  <string name="pref_startup_summary">Start or stop communication</string>
+
+  <string name="pref_host_title">MPC-HC host address IP</string>
+  <string name="pref_host_default_value">127.0.0.1</string>
+  <string name="pref_host_dialog_title">Enter the host</string>
+
+  <string name="pref_port_title">MPC-HC port listening</string>
+  <string name="pref_port_default_value">13579</string>
+  <string name="pref_port_dialog_title">Enter the port</string>
+
+  <string name="pref_category_information_title">Information</string>
+
+  <string name="pref_terms_title">Privacy policy</string>
+  <string name="pref_about_title">About</string>
+
+  <string name="back">Back</string>
+  <string name="play">Play</string>
+  <string name="pause">Pause</string>
+  <string name="forward">Forward</string>
+</resources>

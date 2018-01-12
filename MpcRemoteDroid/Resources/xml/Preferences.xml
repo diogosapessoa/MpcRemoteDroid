@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  <PreferenceCategory
+    android:key="pref_key_connection_settings"
+    android:title="@string/pref_category_connection_title">
+    <SwitchPreference
+      android:key="connection_startup"
+      android:title="@string/pref_startup_title"
+      android:summary="@string/pref_startup_summary"/>
+    <MpcRemoteDroid.Src.Preferences.CustomEditTextPreference
+      android:key="connection_host"
+      android:title="@string/pref_host_title"
+      android:defaultValue="@string/pref_host_default_value"
+      android:dialogTitle="@string/pref_host_dialog_title"
+      android:inputType="number"
+      android:digits="0123456789."
+      android:imeOptions="actionDone"
+      android:maxLength="15"/>
+    <MpcRemoteDroid.Src.Preferences.CustomEditTextPreference
+      android:key="connection_port"
+      android:title="@string/pref_port_title"
+      android:defaultValue="@string/pref_port_default_value"
+      android:dialogTitle="@string/pref_port_dialog_title"
+      android:inputType="number"
+      android:digits="0123456789"
+      android:imeOptions="actionDone"
+      android:maxLength="5"/>
+  </PreferenceCategory>
+  <PreferenceCategory
+    android:key="pref_key_information_settings"
+    android:title="@string/pref_category_information_title">
+    <Preference
+      android:key="terms"
+      android:title="@string/pref_terms_title" >
+      <intent android:action="android.intent.action.VIEW" android:data="http://www.google.com" />
+    </Preference>
+    <Preference
+      android:key="about"
+      android:title="@string/pref_about_title">
+      <intent android:action="com.oneguy.mpcremote.about"/>
+    </Preference>
+  </PreferenceCategory>
+</PreferenceScreen>

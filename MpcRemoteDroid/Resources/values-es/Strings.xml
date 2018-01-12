@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">MPC-HC Remoto</string>
+  <string name="full_app_name">MPC-HC control remoto básico</string>
+  <string name="settings">Ajustes</string>
+  <string name="about">Sobre</string>
+  <string name="version">versión actual</string>
+
+  <string name="rights">Todos los derechos reservados.</string>
+
+  <string name="required_value">El campo es obligatorio</string>
+
+  <string name="pref_category_connection_title">Comunicación</string>
+
+  <string name="pref_startup_title">Listo</string>
+  <string name="pref_startup_summary">Iniciar o detener comunicación</string>
+
+  <string name="pref_host_title">MPC-HC dirección IP</string>
+  <string name="pref_host_default_value">127.0.0.1</string>
+  <string name="pref_host_dialog_title">Introduzca la dirección</string>
+
+  <string name="pref_port_title">MPC-HC puerta de escucha</string>
+  <string name="pref_port_default_value">13579</string>
+  <string name="pref_port_dialog_title">Inserte la puerta</string>
+
+  <string name="pref_category_information_title">Información</string>
+
+  <string name="pref_terms_title">Política de privacidad</string>
+  <string name="pref_about_title">Acerca</string>
+
+  <string name="back">Atrás</string>
+  <string name="play">Reproducir</string>
+  <string name="pause">Pausa</string>
+  <string name="forward">Adelante</string>
+</resources>
