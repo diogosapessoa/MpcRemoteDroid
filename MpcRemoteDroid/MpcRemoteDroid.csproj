@@ -50,6 +50,7 @@
     <AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
     <AndroidLinkMode>SdkOnly</AndroidLinkMode>
     <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
+    <NoWarn>0618</NoWarn>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="HockeySDK, Version=5.0.6556.42084, Culture=neutral, processorArchitecture=MSIL">
