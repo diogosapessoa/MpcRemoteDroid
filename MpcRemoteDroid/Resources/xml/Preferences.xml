@@ -32,7 +32,7 @@
     <Preference
       android:key="terms"
       android:title="@string/pref_terms_title" >
-      <intent android:action="android.intent.action.VIEW" android:data="http://www.google.com" />
+      <intent android:action="android.intent.action.VIEW" android:data="https://sites.google.com/view/mpchcremote-privacy-policy/legal" />
     </Preference>
     <Preference
       android:key="about"
