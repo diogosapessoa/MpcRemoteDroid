@@ -10,9 +10,11 @@ namespace MpcRemoteDroid.Src.Activities
     {
         public const int NotificationId = 321;
 
-        private PendingIntent CreateActionIntent(string action) => PendingIntent.GetBroadcast(this, NotificationId, new Intent(action), PendingIntentFlags.UpdateCurrent);
+        private PendingIntent CreateActionIntent(string action) =>
+            PendingIntent.GetBroadcast(this, NotificationId, new Intent(action), PendingIntentFlags.UpdateCurrent);
 
-        private Notification.Action CreateAction(int resActionIcon, int id, string actionBroadcast) => new Notification.Action.Builder(resActionIcon, GetString(id), CreateActionIntent(actionBroadcast)).Build();
+        private Notification.Action CreateAction(int resActionIcon, int id, string actionBroadcast) =>
+            new Notification.Action.Builder(resActionIcon, GetString(id), CreateActionIntent(actionBroadcast)).Build();
 
         private void ShowNotification(string text, string info, int progress)
         {

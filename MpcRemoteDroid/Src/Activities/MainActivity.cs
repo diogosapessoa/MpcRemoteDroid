@@ -20,8 +20,6 @@ namespace MpcRemoteDroid.Src.Activities
         ScreenOrientation = ScreenOrientation.Portrait, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public partial class MainActivity : Activity
     {
-        public const int VolumeSteps = 10;
-
         private SeekBar Volume { get; set; }
         private ImageView Preview { get; set; }
         private SeekBar Position { get; set; }

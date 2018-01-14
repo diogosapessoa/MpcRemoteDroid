@@ -13,6 +13,7 @@ namespace MpcRemoteDroid.Src.Activities
     public partial class MainActivity
     {
         public const int FeedbacklIntervalExecution = 250;
+        public const int VolumeSteps = 10;
 
         public bool IsVolumeChanging { get; set; }
         public bool IsPositionChanging { get; set; }
